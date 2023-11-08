@@ -24,7 +24,7 @@ public class Ejemplo1 {
                     + "promedio: %.2f\n", promedio);
         }
 
-        if (promedio > 7.5) {
+        if (promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         }
@@ -32,7 +32,7 @@ public class Ejemplo1 {
         if (promedio < 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
-        }
-    }
+        }//finzalizacion del metodo mein 
+    }//finalizacion del metodo main
 
 }
